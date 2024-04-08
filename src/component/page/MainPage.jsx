@@ -23,7 +23,7 @@ const Container = styled.div`
   }
 `;
 
-function MainPage(props) {
+const MainPage = (props) => {
   const navigate = useNavigate();
 
   return (
@@ -45,6 +45,6 @@ function MainPage(props) {
       </Container>
     </Wrapper>
   );
-}
+};
 
 export default MainPage;

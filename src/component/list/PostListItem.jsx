@@ -22,7 +22,7 @@ const TitleText = styled.p`
   font-weight: 500;
 `;
 
-function PostListItem(props) {
+const PostListItem = (props) => {
   const { post, onClick } = props;
 
   return (
@@ -30,6 +30,6 @@ function PostListItem(props) {
       <TitleText>{post.title}</TitleText>
     </Wrapper>
   );
-}
+};
 
 export default PostListItem;

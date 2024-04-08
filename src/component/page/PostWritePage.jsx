@@ -24,7 +24,7 @@ const Container = styled.div`
   }
 `;
 
-function PostWritePage(props) {
+const PostWritePage = (props) => {
   const navigate = useNavigate();
 
   const [title, setTitle] = useState("");
@@ -58,6 +58,6 @@ function PostWritePage(props) {
       </Container>
     </Wrapper>
   );
-}
+};
 
 export default PostWritePage;

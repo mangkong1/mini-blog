@@ -46,7 +46,7 @@ const CommentLabel = styled.p`
   font-weight: 500;
 `;
 
-function PostViewPage(props) {
+const PostViewPage = (props) => {
   const navigate = useNavigate();
   const { postId } = useParams();
 
@@ -89,6 +89,6 @@ function PostViewPage(props) {
       </Container>
     </Wrapper>
   );
-}
+};
 
 export default PostViewPage;

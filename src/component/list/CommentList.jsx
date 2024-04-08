@@ -15,7 +15,7 @@ const Wrapper = styled.div`
   }
 `;
 
-function CommentList(props) {
+const CommentList = (props) => {
   const { comments } = props;
 
   return (
@@ -25,6 +25,6 @@ function CommentList(props) {
       })}
     </Wrapper>
   );
-}
+};
 
 export default CommentList;

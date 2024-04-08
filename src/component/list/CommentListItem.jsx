@@ -21,7 +21,7 @@ const ContentText = styled.p`
   font-size: 14px;
 `;
 
-function CommentListItem(props) {
+const CommentListItem = (props) => {
   const { comment } = props;
 
   return (
@@ -29,6 +29,6 @@ function CommentListItem(props) {
       <ContentText>{comment.content}</ContentText>
     </Wrapper>
   );
-}
+};
 
 export default CommentListItem;
